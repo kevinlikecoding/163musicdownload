@@ -13,7 +13,7 @@ except api.requests.exceptions.ConnectionError:
     time.sleep(2)
     resp,c = api.phone_login()
 count = 0
-
+os.system("rm ../tmp/*")
 def download_song_flac(id):
     url = api.get_song_url(id, c)
     if str(os.system("pwd")).endswith("Api"):

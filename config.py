@@ -1,0 +1,2 @@
+phone = "xxxxxxxx"
+passwd = "xxxxxxxx"
